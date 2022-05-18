@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+p {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: medium;
+}
