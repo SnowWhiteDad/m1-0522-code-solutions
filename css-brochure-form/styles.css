@@ -57,7 +57,7 @@ input::placeholder {
 }
 
 .set-border {
-  border: 1 solid;
+  border: 1px solid;
   border-color: lightgray;
   border-radius: 8px;
 }
