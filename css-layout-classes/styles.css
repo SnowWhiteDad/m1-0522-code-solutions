@@ -4,11 +4,11 @@
     Arial,
     Helvetica,
     sans-serif;
-  font-size: large;
+  font-size: 1.2em;
 }
 
 .main-head {
-  font-size: xx-large;
+  font-size: 2em;
 }
 
 .row {
@@ -21,13 +21,8 @@
   flex-basis: calc(100% / 3);
 }
 
-.wide-text {
+.two-thirds {
   flex-basis: calc(2* 100% / 3);
-}
-
-.side-image {
-  flex-basis: calc(100% / 3);
-  margin: 10px;
 }
 
 .one-fourth {
