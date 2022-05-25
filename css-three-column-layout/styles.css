@@ -8,13 +8,13 @@ html {
 
 .main-container {
   padding: 0 auto;
-  font-family: sans-serif;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   margin: auto;
 }
 
 .main-head {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 .row {
@@ -37,9 +37,9 @@ html {
 .image-container {
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
-  height: 150px;
+  height: 160px;
   border-radius: 50%;
-  width: 150px;
+  width: 160px;
   object-fit: contain;
   margin: auto;
   display: flex;
@@ -57,4 +57,12 @@ html {
 
 .text-color {
   color: whitesmoke;
+}
+
+.text-head {
+  font-size: 1.2;
+}
+
+.brief-descriptor {
+  font-size: 1em;
 }
