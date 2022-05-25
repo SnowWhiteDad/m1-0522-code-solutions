@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 #main-container {
-  padding: 0 100px;
+  padding: 0 auto;
   font-family:
     Arial,
     Helvetica,
@@ -13,8 +17,6 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .one-third {
