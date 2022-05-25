@@ -72,7 +72,7 @@
   flex-basis: calc(4*100%/7);
 }
 
-.set-page-link {
+.set-button-style {
   height: 50%;
   border-radius: 1px;
   margin: 50px auto;
@@ -84,6 +84,6 @@
   justify-content: center;
 }
 
-.set-page-link:hover {
+.set-button-style:hover {
   cursor: pointer;
 }
