@@ -5,7 +5,7 @@
   background-size: cover;
 
   /* your code here */
-  position: absolute;
+  position: relative;
 }
 
 .meme > img {
@@ -44,9 +44,4 @@
   position: absolute;
   width: 300px;
   height: 300px;
-}
-
-.about {
-  position: absolute;
-  top: 300px;
 }
