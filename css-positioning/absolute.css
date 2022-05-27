@@ -42,7 +42,8 @@
 
   /* your code here */
   position: absolute;
-  top: 155px;
+  width: 300px;
+  height: 300px;
 }
 
 .about {
