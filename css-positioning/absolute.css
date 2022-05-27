@@ -5,11 +5,12 @@
   background-size: cover;
 
   /* your code here */
-  position: relative;
+  position: absolute;
 }
 
 .meme > img {
   width: 100%;
+  top: 300px;
 }
 
 .emoji {
@@ -31,8 +32,8 @@
   text-transform: uppercase;
 
   /* your code here */
-  position: inherit;
-  top: 180px;
+  position: absolute;
+  top: 155px;
   bottom: 400px;
 }
 
@@ -40,6 +41,11 @@
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
 
   /* your code here */
-  position: relative;
-  top: 180px;
+  position: absolute;
+  top: 155px;
+}
+
+.about {
+  position: absolute;
+  top: 300px;
 }
