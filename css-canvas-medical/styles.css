@@ -24,25 +24,21 @@
   line-height: 2.2rem;
 }
 
-.pix-section-header {
-  color: white;
-}
-
-.pix-section-para {
-  color: white;
-}
-
 .row {
   display: flex;
 }
 
+.header-container {
+  border: 2px solid rgb(234 233 233);
+}
+
 .header-section {
+  margin-top: 20px;
+  padding-bottom: 73px;
   justify-content: space-between;
   max-height: 50px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding-bottom: 70px;
-  border-bottom: 2px solid rgb(234 233 233);
+
+  /* border-bottom: 2px solid rgb(234 233 233); */
 }
 
 .logo-col {
@@ -52,6 +48,8 @@
 
 .logo-size {
   height: 35px;
+  position: relative;
+  top: 10px;
 }
 
 .links-container {
@@ -76,7 +74,15 @@
   padding: 15px 20px;
 }
 
-.pix-section {
+.bgimage-section-header {
+  color: white;
+}
+
+.bgimage-section-para {
+  color: white;
+}
+
+.bgimage-section {
   width: 100%;
   height: 700px;
   background-image: url("images/hero.jpg");
