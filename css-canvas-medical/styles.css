@@ -156,8 +156,6 @@
   top: 50px;
   bottom: 0;
   left: 80px;
-
-  /* align-items: center; */
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -256,12 +254,18 @@
   line-height: 1.5rem;
 }
 
+.get-started-container {
+  border-top: 2px solid rgb(234 233 233);
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .get-started-section {
   max-width: 85%;
   justify-content: space-between;
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 20px;
+
+  /* border-top: 2px solid rgb(234 233 233); */
 }
 
 .left-col {
@@ -335,7 +339,7 @@
 }
 
 .center-section {
-  border: 2px solid rgb(234 233 233);
+  /* border: 2px solid rgb(234 233 233); */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -343,6 +347,7 @@
 .center-section-header {
   max-width: 60%;
   margin: auto;
+  text-align: center;
 }
 
 .bullet-list-section {
@@ -431,4 +436,43 @@
 .set-font {
   font-family: AtlasGrotesk, sans-serif;
 }
+
+.center-content {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: gray;
+}
+
+.circular-image-container {
+  height: 200px;
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+}
+
+.circular-image-fit {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.center-text {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.one-third {
+  flex-basis: calc(100% / 3);
+  padding: 20px;
+}
+
+.h2-style-2 {
+  font-family:
+    "Tiempos Headline",
+    Arial,
+    Helvetica,
+    sans-serif;
+  font-size: 1.8rem;
+  font-weight: 70;
+  color: rgb(99 98 98);
 }
