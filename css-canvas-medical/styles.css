@@ -96,6 +96,7 @@
   border: 1px solid;
   border-color: rgb(60 60 101);
   padding: 15px 20px;
+  white-space: nowrap;
 }
 
 .bgimage-section-header {
@@ -475,4 +476,33 @@
   font-size: 1.8rem;
   font-weight: 70;
   color: rgb(99 98 98);
+}
+
+.smaller-border {
+  width: 750px;
+}
+
+.two-rows {
+  max-width: 80%;
+  margin: auto;
+}
+
+.two-cols {
+  justify-content: space-around;
+}
+
+.half.col {
+  flex-basis: 50%;
+  padding: 5px;
+}
+
+.image-container {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+}
+
+.image-cover {
+  max-width: 100%;
+  object-fit: contain;
 }
