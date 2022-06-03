@@ -12,7 +12,8 @@ var orderHistory = [
         buyAgain: 'href = buyItAgain-url',
         viewItem: 'href = view-item-url',
         productReview: 'href = write-review-url',
-        getSupportFlag: 0
+        getSupportFlag: 0,
+        imageUrl: 'images/js-book.png'
       }
     ],
     orderDeliveredDate: 'Aug 8, 2020',
@@ -37,7 +38,8 @@ var orderHistory = [
         buyAgain: 'href = buyItAgain-url',
         viewItem: 'href = view-item-url',
         productReview: 'href = write-review-url',
-        getSupportFlag: 0
+        getSupportFlag: 0,
+        imageUrl: 'images/timeless-bldg-book.png'
       }
     ],
     orderDeliveredDate: 'Jul 20, 2020',
@@ -61,7 +63,8 @@ var orderHistory = [
         buyAgain: 'href = buyItAgain-url',
         viewItem: 'href = view-item-url',
         productReview: 'href = write-review-url',
-        getSupportFlag: 1
+        getSupportFlag: 1,
+        imageUrl: 'images/game-controller-1.png'
       }
     ],
     orderDeliveredDate: 'Jul 7, 2020',
@@ -85,7 +88,8 @@ var orderHistory = [
         buyAgain: 'href = buyItAgain-url',
         viewItem: 'href = view-item-url',
         productReview: 'href = write-review-url',
-        getSupportFlag: 0
+        getSupportFlag: 0,
+        imageUrl: 'images/game-controller-2.png'
       },
       {
         itemType: 'Book',
@@ -95,7 +99,8 @@ var orderHistory = [
         returnWindowClose: 'Aug 4, 2020',
         buyAgain: 'href = buyItAgain-url',
         viewItem: 'href = view-item-url',
-        productReview: 'href = write-review-url'
+        productReview: 'href = write-review-url',
+        imageUrl: 'images/art-sql-book.png'
       }
     ],
     orderDeliveredDate: 'Jul 5, 2020',
