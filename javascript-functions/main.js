@@ -26,19 +26,19 @@ var getAreaResult = getArea(17, 42);
 console.log('getAreaResult for width of 17cm and height 42cm: ', getAreaResult + ' square cm');
 
 function getFirstName(person) {
-  var FirstName = person.firstName;
-  return FirstName;
+  var firsTName = person.firstName;
+  return firsTName;
 }
 
-var FirstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
+var firstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
 
-console.log('FirstNameResult for Lelouche Lamperouge is: "' + FirstNameResult + '"');
+console.log('firstNameResult for Lelouche Lamperouge is: "' + firstNameResult + '"');
 
 function getLastElement(array) {
-  var LastElement = array[array.length - 1];
-  return LastElement;
+  var lasTElement = array[array.length - 1];
+  return lasTElement;
 }
 
-var LastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
+var lastElementResult = getLastElement(['propane', 'and', 'propane', 'accessories']);
 
-console.log('LastElementResult for array [propane, and, propane, accessories] is: "', LastElementResult + '"');
+console.log('lastElementResult for array [propane, and, propane, accessories] is: "', lastElementResult + '"');
