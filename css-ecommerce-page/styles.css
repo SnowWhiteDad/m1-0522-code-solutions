@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "DM sans",
+    sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  min-width: fit-content;
+  margin: 20px;
+}
+
+.h1-style {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header-style {
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  min-width: fit-content;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.five-col-image-container {
+  justify-content: center;
+  max-width: 70%;
+  min-width: fit-content;
+  margin: auto;
+  position: relative;
+}
+
+.fifth-col {
+  flex-basis: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.price-container {
+  position: relative;
+  bottom: 10px;
+}
+
+.image-container {
+  padding-right: 20px;
+  width: 301.5px;
+  height: 453px;
+}
+
+.image-fit {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.part-label {
+  padding-right: 7px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.label-para {
+  text-align: left;
+}
+
+.size-para {
+  text-align: left;
+  color: rgb(202 200 200);
+}
+
+.sales-price-para {
+  background-color: rgb(239 150 78 / 17.6%);
+  text-align: left;
+  padding: 1px 2px;
+}
+
+.retail-price-para {
+  text-align: left;
+  color: rgb(202 200 200);
+  font-weight: 550;
+  text-decoration: line-through;
+}
