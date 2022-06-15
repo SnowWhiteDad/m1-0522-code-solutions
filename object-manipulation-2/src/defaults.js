@@ -19,6 +19,7 @@ function defaults(target, source) {
   }
 }
 
+// repeat omit function from omit.js
 function omit(source, keys) {
   var newObject = {};
   var newArray = [];
