@@ -20,11 +20,11 @@
 console.log(''); // log an empty line to separate the output from the previous output
 var players = ['Iron Man', 'Super Man', 'Batman', 'Ip Man']; // assign an array of player names to the players variable
 var cardsPerHand = 2; // assign value 2 to the cardsPerHand variable
-var playerNames = players; // assign the players array to the playerNames variable
-var playerNamestoString = playerNames.join(', '); // convert the playerNames array to a string and assign to the playerNamesString variable
+var playersNames = players; // assign the players array to the playersNames variable
+var playersNamestoString = playersNames.join(', '); // convert the playersNames array to a string and assign to the playersNamesString variable
 
-console.log(players.length + ' players: ', playerNamestoString); // log the player names to the console
-console.log('Cards per hand: ', cardsPerHand); // log the cards per hand to the console
+console.log(players.length + ' players: ', playersNamestoString); // log the players' names to the console
+console.log('Cards per hand: ', cardsPerHand); // log the number of cards per hand to the console
 
 var result = getWinner(players, cardsPerHand); // call the getWinner function
 
@@ -36,9 +36,9 @@ console.log('\nThe winner is: ', result[0]); // log the winner to the console
 function getWinner(players, cardsPerHand) { // get the winner of the game
   var result = main(players, cardsPerHand); // call the main function
   if (result[0] === 'There was a Tie') { // check if there is a tie
-    var playerNames = result[1]; // assign the array of player names to the playerNames variable
-    var playerNamesString = playerNames.join(', '); // convert the playerNames array to a string and assign to the playerNamesString variable
-    console.log('\nThere was a tie between ' + playerNamesString); // log the tie to the console
+    var playersNames = result[1]; // assign the array of player names to the playersNames variable
+    var playersNamesString = playersNames.join(', '); // convert the playersNames array to a string and assign to the playersNamesString variable
+    console.log('\nThere was a tie between ' + playersNamesString); // log the tie to the console
     result = tieBreaker(result, cardsPerHand); // call the tieBreaker function
     return result; // return the result
   }
