@@ -1,0 +1,16 @@
+console.log('Hello World');
+var h1Selector = document.querySelector('h1');
+console.log(h1Selector);
+console.dir(h1Selector);
+var explanationSelector = document.querySelector('#explanation');
+console.log(explanationSelector);
+console.dir(explanationSelector);
+var hintSelector = document.querySelector('.hint');
+console.log('$hint ', hintSelector);
+console.dir(hintSelector);
+var pSelector = document.querySelectorAll('p');
+console.log('$paragraphs ', pSelector);
+console.dir(pSelector);
+var linksSelector = document.querySelectorAll('.example-link');
+console.log('$links ', linksSelector);
+console.dir(linksSelector);
