@@ -1,4 +1,3 @@
-// addeventlistener to the button
 function handleClick(event) {
   var $currentBgClass = $circleBulb.className;
 
