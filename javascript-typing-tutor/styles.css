@@ -47,12 +47,36 @@ body {
   text-decoration-color: red;
 }
 
+.modal-size {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 30px;
+  border: 0;
+  width: 600px;
+  height: 180px;
+  border-radius: 5px;
+  border-style: hidden;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkgrey;
+  box-shadow: 0 0 10px 10px rgb(0 0 0 / 50%);
+}
+
 .modal-text-div {
   flex-basis: 50%;
   margin: auto;
   padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.modal-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(42 41 41);
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 .modal-button-div {
@@ -67,23 +91,16 @@ body {
   background-color: blue;
   color: white;
   border-radius: 5px;
-  padding: 5px 20px;
-  font-size: 1.1rem;
+  padding: 5px 30px;
+  font-size: 1.5rem;
 }
 
 .modal-button2 {
   background-color: red;
   color: white;
   border-radius: 5px;
-  padding: 5px 20px;
-  font-size: 1.1rem;
-}
-
-.modal-text {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: rgb(42 41 41);
-  text-align: center;
-  font-size: 1.6rem;
+  padding: 5px 30px;
+  font-size: 1.5rem;
 }
 
 .size-out {
@@ -91,21 +108,4 @@ body {
   background-color: rgb(0 0 0 / 73.3%);
   width: 100%;
   height: 100%;
-}
-
-.modal-size {
-  position: absolute;
-  margin: auto;
-  right: 0;
-  left: 0;
-  bottom: 10px;
-  border: 0;
-  width: 600px;
-  height: 180px;
-  border-radius: 5px;
-  border-style: hidden;
-  background-color: white;
-  justify-content: space-around;
-  align-items: center;
-  box-shadow: 10px rgb(0 0 0 / 81.8%);
 }
