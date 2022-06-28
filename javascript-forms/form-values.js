@@ -12,5 +12,7 @@ contactForm.addEventListener('submit', function (event) {
   };
   // log the formValues object to console
   console.log(formValues);
+  // reset the form
+  contactForm.reset();
 }
 );
