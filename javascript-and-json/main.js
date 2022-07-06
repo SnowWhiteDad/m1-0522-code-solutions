@@ -18,15 +18,19 @@ var booksArray = [
   }
 ];
 
-console.log('booksArray: ', booksArray, '\n', 'typeof booksArray: ', typeof booksArray);
+console.log('booksArray: ', booksArray);
+console.log('type of booksArray: ', typeof booksArray);
 
 var booksString = JSON.stringify(booksArray);
-console.log('booksString: ', booksString, '\n', 'typeof booksString: ', typeof booksString);
+console.log('booksString: ', booksString);
+console.log('type of booksString: ', typeof booksString);
 
 var studentsString = "{\"Number id\":\"123456789\",\"name\":\"Jeff McLean\"}";
 
-console.log('studentsString: ', studentsString, '\n', 'typeof studentsString: ', typeof studentsString);
+console.log('studentsString: ', studentsString);
+console.log('type of studentsString: ', typeof studentsString);
 
 var studentsObject = JSON.parse(studentsString);
 
-console.log('studentsObject: ', studentsObject, '\n', 'typeof studentsObject: ', typeof studentsObject);
+console.log('studentsObject: ', studentsObject);
+console.log('type of studentsObject: ', typeof studentsObject);
